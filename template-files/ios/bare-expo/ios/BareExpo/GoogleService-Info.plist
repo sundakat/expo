@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>${FIREBASE_CLIENT_ID}</string>
+	<string>${BARE_EXPO_FIREBASE_IOS_CLIENT_ID}</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>${FIREBASE_REVERSED_CLIENT_ID}</string>
+	<string>${BARE_EXPO_FIREBASE_IOS_REVERSED_CLIENT_ID}</string>
 	<key>API_KEY</key>
-	<string>${BARE_EXPO_FIREBASE_IOS_KEY}</string>
+	<string>${BARE_EXPO_FIREBASE_IOS_API_KEY}</string>
 	<key>GCM_SENDER_ID</key>
-	<string>${FIREBASE_GCM_SENDER_ID}</string>
+	<string>${BARE_EXPO_FIREBASE_GCM_SENDER_ID}</string>
 	<key>PLIST_VERSION</key>
-	<string>${FIREBASE_PLIST_VERSION}</string>
+	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>${BARE_EXPO_FIREBASE_BUNDLE_ID}</string>
 	<key>PROJECT_ID</key>
-	<string>${FIREBASE_PROJECT_ID}</string>
+	<string>${BARE_EXPO_FIREBASE_PROJECT_ID}</string>
 	<key>STORAGE_BUCKET</key>
-	<string>${FIREBASE_STORAGE_BUCKET}</string>
+	<string>${BARE_EXPO_FIREBASE_STORAGE_BUCKET}</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>${BARE_EXPO_FIREBASE_GOOGLE_APP_ID}</string>
+	<string>${BARE_EXPO_FIREBASE_IOS_GOOGLE_APP_ID}</string>
 	<key>FIREBASE_DATABASE_URL</key>
-	<string>${FIREBASE_DATABASE_URL}</string>
+	<string>${BARE_EXPO_FIREBASE_DATABASE_URL}</string>
 </dict>
 </plist>
