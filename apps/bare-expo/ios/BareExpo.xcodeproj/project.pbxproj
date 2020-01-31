@@ -187,6 +187,7 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BareExpo" */;
 			buildPhases = (
 				4B0225741A3EE6614741CF8A /* [CP] Check Pods Manifest.lock */,
+				2168BD7723E476FA00A94C0D /* Generate Dynamic Macros */,
 				FD4C38642228810C00325AF5 /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -293,6 +294,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "$SRCROOT/Build-Phases/cp-bundle-resources-conditionally.sh\n";
+		};
+		2168BD7723E476FA00A94C0D /* Generate Dynamic Macros */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Dynamic Macros";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/Build-Phases/generate-dynamic-macros.sh\n";
 		};
 		4B0225741A3EE6614741CF8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
