@@ -1,14 +1,20 @@
 package org.unimodules.interfaces.imageloader;
 
 import android.graphics.Bitmap;
+
+import java.util.concurrent.Future;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public interface ImageLoader {
   interface ResultListener {
     void onSuccess(@NonNull Bitmap bitmap);
+
     void onFailure(@Nullable Throwable cause);
   }
+
+  Future<Bitmap> loadImageForDisplayFromURL(@NonNull String url);
 
   /**
    * Loads image into memory that might be cached and downsampled if necessary.
